@@ -1,7 +1,7 @@
 # Credit-Scoring-Classification
 
 ## Overview
-This project aims to develop a credit scoring model using historical banking data. The goal is to predict the credit score of customers based on various features. The project involves several steps, including data exploration, data preprocessing, feature engineering, feature selection, model building, evaluation, and application on new data.
+This project aims to develop a credit scoring model using historical banking data. The goal is to predict customers' credit score based on various features. The project involves several steps, including data exploration, data preprocessing, feature engineering, feature selection, model building, evaluation, and application on new data.
 
 ## Table of Contents
 - Introduction
@@ -41,20 +41,8 @@ The model used for this project was Random Forest Classifier. It was the best pe
 The model was trained and evaluated using an 70-30 train-test split.
 
 ## Model Evaluation
-The performance of the models was evaluated using various metrics:
-RandomForest Classifier:
+The performance of the models was evaluated using RandomForest Classifier:
 Accuracy: 0.86
-
-Classification Report
-              precision    recall  f1-score   support
-
-           1       0.86      0.88      0.87     16014
-           2       0.84      0.76      0.80     15952
-           3       0.87      0.93      0.90     15891
-
-    accuracy                           0.86     47857
-   macro avg       0.86      0.86      0.86     47857
-weighted avg       0.86      0.86      0.86     47857
 
 ## Applying Model on New Data
 The trained model was applied to a new dataset to predict credit scores. The new data underwent the same preprocessing and feature engineering steps as the training data.
